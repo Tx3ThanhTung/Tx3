@@ -611,9 +611,9 @@ scene.add(planet);
 
 // ---- TẠO CÁC VÒNG CHỮ QUAY QUANH HÀNH TINH ----
 const ringTexts = [
-  'XIN LỖI VÌ NHỮNG LẦN LÀM EM BUỒN',
-  "THƯƠNG MỖI EM NGUYÊN",
-  "TIENDEV",
+  'Anh Tùng iu em Linhhhh',
+  "Chúc mừng sinh nhật Linh nhaaaa",
+  "Yêu mỗi emmmm",
   ...(window.dataCCD && window.dataCCD.data.ringTexts ? window.dataCCD.data.ringTexts : [])
 ];
 
@@ -1323,3 +1323,4 @@ window.addEventListener('orientationchange', () => {
   // Thêm độ trễ để trình duyệt cập nhật kích thước chính xác
   setTimeout(checkOrientation, 200);
 });
+
